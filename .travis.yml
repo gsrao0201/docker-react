@@ -14,7 +14,7 @@ deploy:
   provider: elasticbeanstalk
   region: 'us-east-2'
   app: 'docker-travis-ci'
-  env: 'docker-travis-ci'
+  env: 'Dockertravisci-env'
   bucket_name: 'elasticbeanstalk-us-east-2-543177743079'
   bucket_path: 'docker-travis-ci'
   on:
